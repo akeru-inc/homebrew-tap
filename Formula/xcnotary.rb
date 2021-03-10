@@ -1,8 +1,8 @@
 class Xcnotary < Formula
   desc "macOS app notarization helper"
   homepage "https://github.com/akeru-inc/xcnotary"
-  url "https://github.com/akeru-inc/xcnotary/archive/v0.4.4.zip"
-  sha256 "d37cfe7cb468f8b0a1fa5555369d12a60bd7842d18e22655036c5f3a0addbe78"
+  url "https://github.com/akeru-inc/xcnotary/archive/v0.4.6.zip"
+  sha256 "fc1908a43f21250611cd36b3bdcfb96996feb7c6d1fcef492de25fa40ddeca9e"
 
   depends_on "rust" => :build
 
@@ -11,10 +11,10 @@ class Xcnotary < Formula
   end
 
   bottle do
-    root_url "https://github.com/akeru-inc/xcnotary/releases/download/v0.4.4"
+    root_url "https://github.com/akeru-inc/xcnotary/releases/download/v0.4.6"
     cellar :any_skip_relocation
-    sha256 "66d97eaa4e326d908fdfe05f0afdedae110f54a4577bb31e38262b9fccdd8ea7" => :mojave
-    sha256 "66d97eaa4e326d908fdfe05f0afdedae110f54a4577bb31e38262b9fccdd8ea7" => :catalina
+    sha256 "d798b49c6cec0a6ea2528dc9dcf3aa41fd5eabe0ecdef807008667d010ab1368" => :mojave
+    sha256 "d798b49c6cec0a6ea2528dc9dcf3aa41fd5eabe0ecdef807008667d010ab1368" => :catalina
   end
 
   test do
