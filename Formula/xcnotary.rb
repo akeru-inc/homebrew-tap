@@ -13,8 +13,8 @@ class Xcnotary < Formula
   bottle do
     root_url "https://github.com/akeru-inc/xcnotary/releases/download/v0.4.4"
     cellar :any_skip_relocation
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5" => :mojave
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5" => :catalina
+    sha256 "66d97eaa4e326d908fdfe05f0afdedae110f54a4577bb31e38262b9fccdd8ea7" => :mojave
+    sha256 "66d97eaa4e326d908fdfe05f0afdedae110f54a4577bb31e38262b9fccdd8ea7" => :catalina
   end
 
   test do
