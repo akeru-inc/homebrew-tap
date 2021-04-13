@@ -9,6 +9,7 @@ class Xcnotary < Formula
     sha256 cellar: :any_skip_relocation, mojave:   "107079648e9a941c3d816acb64b84f7e114c8d2cfa87b627daf7bceaf99b6fa9"
     sha256 cellar: :any_skip_relocation, catalina: "107079648e9a941c3d816acb64b84f7e114c8d2cfa87b627daf7bceaf99b6fa9"
     sha256 cellar: :any_skip_relocation, big_sur:  "107079648e9a941c3d816acb64b84f7e114c8d2cfa87b627daf7bceaf99b6fa9"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur:  "107079648e9a941c3d816acb64b84f7e114c8d2cfa87b627daf7bceaf99b6fa9"
   end
 
   depends_on "rust" => :build
