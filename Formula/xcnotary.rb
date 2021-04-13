@@ -2,14 +2,14 @@ class Xcnotary < Formula
   desc "macOS app notarization helper"
   homepage "https://github.com/akeru-inc/xcnotary"
   url "https://github.com/akeru-inc/xcnotary/archive/v0.4.6.1.zip"
-  sha256 "c19fb7fe1d0c02f1e04d2031ba599133d6c6428a7dcda5959e38a4da2275be3d"
+  sha256 "699355770c8d53fd391abe49021e999e3a8f9a0a12143a9e9895a33b5652bf52"
 
   bottle do
     root_url "https://github.com/akeru-inc/xcnotary/releases/download/v0.4.6.1"
-    sha256 cellar: :any_skip_relocation, mojave:   "107079648e9a941c3d816acb64b84f7e114c8d2cfa87b627daf7bceaf99b6fa9"
-    sha256 cellar: :any_skip_relocation, catalina: "107079648e9a941c3d816acb64b84f7e114c8d2cfa87b627daf7bceaf99b6fa9"
-    sha256 cellar: :any_skip_relocation, big_sur:  "107079648e9a941c3d816acb64b84f7e114c8d2cfa87b627daf7bceaf99b6fa9"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur:  "107079648e9a941c3d816acb64b84f7e114c8d2cfa87b627daf7bceaf99b6fa9"
+    sha256 cellar: :any_skip_relocation, mojave:   "c2cf54ef129511e7fa4d9995524fbda7ce43123d1e694fc164ab9a49d9851a70"
+    sha256 cellar: :any_skip_relocation, catalina: "c2cf54ef129511e7fa4d9995524fbda7ce43123d1e694fc164ab9a49d9851a70"
+    sha256 cellar: :any_skip_relocation, big_sur:  "c2cf54ef129511e7fa4d9995524fbda7ce43123d1e694fc164ab9a49d9851a70"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur:  "c2cf54ef129511e7fa4d9995524fbda7ce43123d1e694fc164ab9a49d9851a70"
   end
 
   depends_on "rust" => :build
