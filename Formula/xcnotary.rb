@@ -8,6 +8,7 @@ class Xcnotary < Formula
     root_url "https://github.com/akeru-inc/xcnotary/releases/download/v0.4.6"
     sha256 cellar: :any_skip_relocation, mojave:   "d798b49c6cec0a6ea2528dc9dcf3aa41fd5eabe0ecdef807008667d010ab1368"
     sha256 cellar: :any_skip_relocation, catalina: "d798b49c6cec0a6ea2528dc9dcf3aa41fd5eabe0ecdef807008667d010ab1368"
+    sha256 cellar: :any_skip_relocation, big_sur:  "d798b49c6cec0a6ea2528dc9dcf3aa41fd5eabe0ecdef807008667d010ab1368"
   end
 
   depends_on "rust" => :build
